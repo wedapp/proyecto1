@@ -8,6 +8,10 @@ Este és un proyecto de desarrollo de una app para iOS, desarrollado con Xcode.
 
 La app pregunta el color favorito del usuário, aquel día
 
+* ¿Qué color más te gusta?
+* 7 colores para elegir
+	* cada color es un botón
+
 ### Segunda Pantalla
 
 La app pregunta el estado de humor del usuário, aquel día
