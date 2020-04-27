@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A6316E024566D5E0095D345 /* quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6316DF24566D5E0095D345 /* quotes.swift */; };
 		9A8A6B4124564779007D41DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4024564779007D41DE /* AppDelegate.swift */; };
 		9A8A6B4324564779007D41DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4224564779007D41DE /* SceneDelegate.swift */; };
 		9A8A6B4524564779007D41DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4424564779007D41DE /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A6316DF24566D5E0095D345 /* quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotes.swift; sourceTree = "<group>"; };
 		9A8A6B3D24564779007D41DE /* proyecto1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8A6B4024564779007D41DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A8A6B4224564779007D41DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A6316DE24566D210095D345 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9A6316DF24566D5E0095D345 /* quotes.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		9A8A6B3424564778007D41DE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 				9A8A6B5624564780007D41DE /* proyecto1Tests */,
 				9A8A6B6124564780007D41DE /* proyecto1UITests */,
 				9A8A6B3E24564779007D41DE /* Products */,
+				9A6316DE24566D210095D345 /* Library */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8A6B4524564779007D41DE /* ViewController.swift in Sources */,
+				9A6316E024566D5E0095D345 /* quotes.swift in Sources */,
 				9A8A6B4124564779007D41DE /* AppDelegate.swift in Sources */,
 				9A8A6B4324564779007D41DE /* SceneDelegate.swift in Sources */,
 			);
