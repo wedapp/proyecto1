@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var colorQuestion: UILabel!
-    
     @IBOutlet weak var wedappLabel: UILabel!
     
     override func viewDidLoad() {
@@ -19,27 +18,20 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view.
     
     }
-    @IBAction func lilaButton(_ sender: Any) {
+    // Botones Color
+    @IBAction func lilaButtonAction(_ sender: Any) {
     }
-    
-    @IBAction func orangeButton(_ sender: Any) {
+    @IBAction func orangeButtonAction(_ sender: Any) {
     }
-    
-    @IBAction func purpleButton(_ sender: Any) {
+    @IBAction func purpleButtonAction(_ sender: Any) {
     }
-    
-    @IBAction func blueButton(_ sender: Any) {
+    @IBAction func blueButtonAction(_ sender: Any) {
     }
-    
-    @IBAction func yellowButton(_ sender: Any) {
+    @IBAction func yellowButtonAction(_ sender: Any) {
     }
-    
-    @IBAction func redButton(_ sender: Any) {
+    @IBAction func redButtonAction(_ sender: Any) {
     }
-    
-    @IBAction func greenButton(_ sender: Any) {
+    @IBAction func greenButtonAction(_ sender: Any) {
     }
-    
-    
 }
 
