@@ -121,6 +121,7 @@ class ViewControllerWords: UIViewController {
                 if let tituloButton = sender as? Array<Any> {
                     destino.titulo = tituloButton[0] as? String
                 }
+                destino.colorDeFondo = colorDeFondo
             }
         }
     }

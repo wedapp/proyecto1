@@ -43,7 +43,7 @@ class ViewControllerMessage: UIViewController {
         super.viewDidLoad()
         meditaLabel.text = "Medita estas palabras sobre \(titulo!)"
         self.title = titulo!
-        self.view.backgroundColor = .lightGray
+        self.view.backgroundColor = colorDeFondo
         
         if titulo! == "Euforia" {
             messageText.text = euphoriaQuotes.randomElement()
