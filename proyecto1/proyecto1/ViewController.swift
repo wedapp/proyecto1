@@ -85,19 +85,12 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "VCWords" || segue.identifier == "VCMessage2" {
+        if segue.identifier == "VCWords" {
             if let destino = segue.destination as? ViewControllerWords {
                 if let colorDeFondoColores = sender as? Array<Any> {
                     destino.colorDeFondo = colorDeFondoColores[0] as? UIColor
                 }
             }
-            
-            if let destino = segue.destination as? ViewControllerMessage {
-            if let colorDeFondoColores = sender as? Array<Any> {
-                destino.colorDeFondo = colorDeFondoColores[0] as? UIColor
-                }
-            }
-    
         }
     }
 }
