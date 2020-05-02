@@ -40,74 +40,67 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvw-MW-0cV">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvw-MW-0cV">
                                         <rect key="frame" x="0.0" y="89.666666666666686" width="414" height="90"/>
-                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Rojo">
+                                        <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1Op-bh-nbs" kind="show" id="1i4-bh-DXD"/>
+                                            <action selector="buttonRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="npF-cq-b7i"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIo-ml-Bst">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIo-ml-Bst">
                                         <rect key="frame" x="0.0" y="179.66666666666666" width="414" height="89.666666666666657"/>
-                                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Naranjo">
+                                        <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1Op-bh-nbs" kind="show" id="F3x-Ph-WTk"/>
+                                            <action selector="buttonOrange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KHQ-Wf-a3L"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qj-rx-U7o">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qj-rx-U7o">
                                         <rect key="frame" x="0.0" y="269.33333333333331" width="414" height="89.666666666666686"/>
-                                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Amarillo">
+                                        <state key="normal">
                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1Op-bh-nbs" kind="show" id="VsX-s3-bJz"/>
+                                            <action selector="buttonYellow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ja6-SV-lnV"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycw-9Y-9Zl">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycw-9Y-9Zl">
                                         <rect key="frame" x="0.0" y="359" width="414" height="90"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Verde">
+                                        <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1Op-bh-nbs" kind="show" id="owQ-US-KhH"/>
+                                            <action selector="buttonGreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oHX-tD-d52"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrh-5S-sfB">
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrh-5S-sfB">
                                         <rect key="frame" x="0.0" y="449" width="414" height="89.666666666666629"/>
-                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Azul">
+                                        <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1Op-bh-nbs" kind="show" id="KgV-hM-blL"/>
+                                            <action selector="buttonBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lTN-zL-hqg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sk4-cQ-ulC">
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sk4-cQ-ulC">
                                         <rect key="frame" x="0.0" y="538.66666666666663" width="414" height="89.666666666666629"/>
-                                        <color key="backgroundColor" red="0.47684186699999997" green="0.50480759139999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Lila">
+                                        <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1Op-bh-nbs" kind="show" id="aTz-7g-6Vh"/>
+                                            <action selector="buttonLilac:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzF-TI-MHU"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgi-j0-Av4">
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgi-j0-Av4">
                                         <rect key="frame" x="0.0" y="628.33333333333337" width="414" height="90"/>
-                                        <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Purple">
+                                        <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1Op-bh-nbs" kind="show" id="pcb-Og-QBW"/>
+                                            <action selector="buttonPurple:" destination="BYZ-38-t0r" eventType="touchUpInside" id="97d-AC-hAK"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wedapp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJ0-T8-Otm">
@@ -131,7 +124,16 @@
                     <navigationItem key="navigationItem" id="wgu-ix-6ma"/>
                     <connections>
                         <outlet property="colorQuestion" destination="Ant-UG-m21" id="HxH-WK-hF7"/>
+                        <outlet property="myButtonBlue" destination="mrh-5S-sfB" id="55V-Dx-qER"/>
+                        <outlet property="myButtonGreen" destination="ycw-9Y-9Zl" id="Jrk-Er-DYh"/>
+                        <outlet property="myButtonLilac" destination="Sk4-cQ-ulC" id="ofL-Sk-5oa"/>
+                        <outlet property="myButtonOrange" destination="MIo-ml-Bst" id="XlO-eb-8Ma"/>
+                        <outlet property="myButtonPurple" destination="bgi-j0-Av4" id="Z0Q-tS-3wu"/>
+                        <outlet property="myButtonRed" destination="Fvw-MW-0cV" id="CEW-xj-EU4"/>
+                        <outlet property="myButtonYellow" destination="9Qj-rx-U7o" id="8I5-e9-Zf9"/>
                         <outlet property="wedappLabel" destination="kJ0-T8-Otm" id="AKU-ms-0v1"/>
+                        <segue destination="1Op-bh-nbs" kind="show" identifier="VCWords" id="YiE-n4-agE"/>
+                        <segue destination="FZY-Hk-drD" kind="show" identifier="VCMessage2" id="16e-xy-YDz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -141,7 +143,7 @@
         <!--screen2-->
         <scene sceneID="I3j-zC-OAs">
             <objects>
-                <viewController id="1Op-bh-nbs" userLabel="screen2" sceneMemberID="viewController">
+                <viewController id="1Op-bh-nbs" userLabel="screen2" customClass="ViewControllerWords" customModule="proyecto1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6qi-xm-VKx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,7 +164,8 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="WAD-ce-ili"/>
+                                            <action selector="buttonEuphoria:" destination="1Op-bh-nbs" eventType="touchUpInside" id="7Fa-KP-BJP"/>
+                                            <action selector="buttonEuphoria:" destination="KBy-27-FXg" eventType="touchUpInside" id="7he-GX-Sr9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haV-Ox-syp">
@@ -172,18 +175,17 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="tLN-bD-UKB"/>
+                                            <action selector="buttonConfidence:" destination="1Op-bh-nbs" eventType="touchUpInside" id="VO0-11-kgt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeW-XC-5HH">
                                         <rect key="frame" x="0.0" y="202" width="414" height="67.333333333333314"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Rabia">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="4He-Vs-Vud"/>
+                                            <action selector="buttonAngry:" destination="1Op-bh-nbs" eventType="touchUpInside" id="9WL-eX-fvW"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOq-Kt-zxB">
@@ -193,18 +195,17 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="vL0-EH-BEK"/>
+                                            <action selector="buttonSadness:" destination="1Op-bh-nbs" eventType="touchUpInside" id="A3X-7C-h4q"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Jo-gg-nvt">
                                         <rect key="frame" x="0.0" y="336.66666666666669" width="414" height="67.333333333333314"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Motivación">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="XPG-q4-mh6"/>
+                                            <action selector="buttonMotivation:" destination="1Op-bh-nbs" eventType="touchUpInside" id="bTG-CY-0I1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGM-cP-kMN">
@@ -214,29 +215,27 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="JlU-Kc-fVo"/>
+                                            <action selector="buttonLonelyness:" destination="1Op-bh-nbs" eventType="touchUpInside" id="wog-4D-uNI"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuM-X5-nZa">
                                         <rect key="frame" x="0.0" y="471.33333333333331" width="414" height="67.333333333333314"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Miedo">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="bkD-Vm-xyG"/>
+                                            <action selector="buttonFear:" destination="1Op-bh-nbs" eventType="touchUpInside" id="agC-ww-tnc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bki-bZ-17H">
                                         <rect key="frame" x="0.0" y="538.66666666666663" width="414" height="67.333333333333371"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Alegría">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="Ql7-R1-Qhc"/>
+                                            <action selector="buttonJoy:" destination="1Op-bh-nbs" eventType="touchUpInside" id="Xoh-s6-ghy"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9A5-Yb-W0M">
@@ -246,19 +245,18 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="cUK-TY-B6j"/>
+                                            <action selector="buttonPatience:" destination="1Op-bh-nbs" eventType="touchUpInside" id="Ddb-c7-vNF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhe-Cc-o6U">
                                         <rect key="frame" x="0.0" y="673.33333333333337" width="414" height="67.333333333333371"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Amor">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="FZY-Hk-drD" kind="show" id="KD1-Ib-l22"/>
+                                            <action selector="buttonLove:" destination="1Op-bh-nbs" eventType="touchUpInside" id="IXo-mT-6vX"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wedapp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbV-RN-Ys5">
@@ -280,15 +278,31 @@
                         <viewLayoutGuide key="safeArea" id="Gsg-WQ-W4u"/>
                     </view>
                     <navigationItem key="navigationItem" id="fpu-P8-xZe"/>
+                    <connections>
+                        <outlet property="myButtonAngry" destination="JeW-XC-5HH" id="rTu-Je-4OI"/>
+                        <outlet property="myButtonConfidence" destination="haV-Ox-syp" id="yQl-6h-vMq"/>
+                        <outlet property="myButtonEuphoria" destination="Y3h-J7-wDB" id="HMV-E7-96E"/>
+                        <outlet property="myButtonFear" destination="wuM-X5-nZa" id="qAu-zh-xTU"/>
+                        <outlet property="myButtonJoy" destination="Bki-bZ-17H" id="xol-b6-TyH"/>
+                        <outlet property="myButtonLonelyness" destination="VGM-cP-kMN" id="BVN-6e-Qre"/>
+                        <outlet property="myButtonLove" destination="hhe-Cc-o6U" id="S3N-ZB-4R2"/>
+                        <outlet property="myButtonMotivation" destination="9Jo-gg-nvt" id="TIg-x3-nEm"/>
+                        <outlet property="myButtonPatience" destination="9A5-Yb-W0M" id="v5e-eI-1Oo"/>
+                        <outlet property="myButtonSadness" destination="HOq-Kt-zxB" id="XQX-dQ-xUM"/>
+                        <outlet property="wedaLabel" destination="IbV-RN-Ys5" id="xPw-Rh-jAJ"/>
+                        <outlet property="wordsLabel" destination="r55-wg-9rl" id="3bK-ZH-3OV"/>
+                        <segue destination="FZY-Hk-drD" kind="show" identifier="VCMessage" id="5V9-Ur-WWt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhj-Q1-LH8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="KBy-27-FXg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="863.768115942029" y="126.5625"/>
+            <point key="canvasLocation" x="988" y="127"/>
         </scene>
         <!--screen3-->
         <scene sceneID="zfB-zm-0fb">
             <objects>
-                <viewController title="sreen3" id="FZY-Hk-drD" userLabel="screen3" sceneMemberID="viewController">
+                <viewController title="sreen3" id="FZY-Hk-drD" userLabel="screen3" customClass="ViewControllerMessage" customModule="proyecto1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kUQ-Vc-xbL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -308,7 +322,6 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GZc-DA-glY">
                                         <rect key="frame" x="0.0" y="100" width="414" height="600"/>
-                                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="700" id="CUb-HI-RS8"/>
                                             <constraint firstAttribute="height" constant="600" id="mWI-a3-1kt"/>
@@ -329,7 +342,7 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="yDr-Ar-YqR"/>
+                                            <action selector="buttonOut:" destination="FZY-Hk-drD" eventType="touchUpInside" id="oSS-AO-Uzc"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wedapp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI9-6G-rxO">
@@ -354,15 +367,19 @@
                         <viewLayoutGuide key="safeArea" id="KqP-Yh-BNg"/>
                     </view>
                     <navigationItem key="navigationItem" id="efv-FZ-v1f"/>
+                    <connections>
+                        <outlet property="meditaLabel" destination="6zh-dd-6QO" id="bES-zj-yU4"/>
+                        <outlet property="messageText" destination="GZc-DA-glY" id="5aL-c3-25D"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="VC" id="BGm-ID-DH2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQL-f8-vLq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1576.8115942028987" y="126.5625"/>
+            <point key="canvasLocation" x="1804" y="127"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tLN-bD-UKB"/>
-        <segue reference="VsX-s3-bJz"/>
-        <segue reference="yDr-Ar-YqR"/>
+        <segue reference="16e-xy-YDz"/>
+        <segue reference="BGm-ID-DH2"/>
     </inferredMetricsTieBreakers>
 </document>
