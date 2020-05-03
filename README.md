@@ -2,7 +2,7 @@
 ## Proyecto 1
 ### iOS
 
-Este és un proyecto de desarrollo de una app para iOS, desarrollado con Xcode.
+Este és un proyecto de desarrollo de una app para iOS, desarrollado con Swift y Xcode.
 
 ### Primera Pantalla
 
