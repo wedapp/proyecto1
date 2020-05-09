@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // Aquí todos los IBOutlets, tanto para etiquetas como para los botones
     @IBOutlet weak var colorQuestion: UILabel!
     @IBOutlet weak var wedappLabel: UILabel!
     @IBOutlet weak var myButtonRed: UIButton!
@@ -23,6 +24,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
     super.viewDidLoad()
         
+        // Aquí la configuración de los botones
+        // usando los nombres de los IBOutlets
         myButtonRed.backgroundColor = .red
         myButtonRed.setTitle("Rojo", for: .normal)
         myButtonRed.setTitleColor(.red, for: .normal)
@@ -53,6 +56,7 @@ class ViewController: UIViewController {
         
     }
     // Botones Color
+    // Aquí van los IBAction de cada botón
     @IBAction func buttonRed(_ sender: UIButton) {
         // Código que al pulsar el botón rojo pinte la pantalla siguiente de rojo
         let colorDeFondoColores = [myButtonRed.backgroundColor]
@@ -84,10 +88,14 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "VCWords", sender: colorDeFondoColores)
     }
     
+    // Un override que sigue para la próxima pantalla 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "VCWords" {
+            // Un if let de nombre 'destino' que lleva el color de fondo del botón hacia la nueva vista
             if let destino = segue.destination as? ViewControllerWords {
+                // Un if let de nombre 'colorDeFondoColores' que atribuye a 'destino' el color
                 if let colorDeFondoColores = sender as? Array<Any> {
+                    // colorDeFondo es la variable de la siguiente pantalla, que aquí recibe los atributos del boton presionado
                     destino.colorDeFondo = colorDeFondoColores[0] as? UIColor
                 }
             }

@@ -10,9 +10,9 @@ import UIKit
 
 class ViewControllerWords: UIViewController {
     
+    // Aquí todos los IBOutlets, tanto para etiquetas como para los botones
     @IBOutlet weak var wordsLabel: UILabel!
     @IBOutlet weak var wedaLabel: UILabel!
-    
     @IBOutlet weak var myButtonEuphoria: UIButton!
     @IBOutlet weak var myButtonConfidence: UIButton!
     @IBOutlet weak var myButtonAngry: UIButton!
@@ -24,13 +24,17 @@ class ViewControllerWords: UIViewController {
     @IBOutlet weak var myButtonPatience: UIButton!
     @IBOutlet weak var myButtonLove: UIButton!
     
+    // Declaración de la variable que recibió los atributos en la vista anterior
      var colorDeFondo:UIColor!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Atibuye el color de fondo, basado en los atributos de la variable 'colorDeFondo'
         self.view.backgroundColor = colorDeFondo
         
+        // Aquí la configuración de los botones
+        // usando los nombres de los IBOutlets
         myButtonEuphoria.backgroundColor = nil
         myButtonEuphoria.setTitle("Euforia", for: .normal)
         myButtonEuphoria.setTitleColor(.black, for: .normal)
@@ -74,7 +78,9 @@ class ViewControllerWords: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func buttonEuphoria(_ sender: UIButton) {
+        // Código que al pulsar el botón palabra Euforia, lleve esta palabra como titulo a la vista siguiente
         let tituloButton = [myButtonEuphoria.title(for: .normal)]
+        // Código que al pulsar el botón Euforia nos mande para la pantalla de texto
         performSegue(withIdentifier: "VCMessage", sender: tituloButton)
     }
     @IBAction func buttonConfidence(_ sender: UIButton) {

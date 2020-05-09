@@ -68,12 +68,8 @@ class ViewControllerMessage: UIViewController {
         } else {
             self.messageText.text = textContain
         }
-        
-        // self.messageText.text = textContain
-        // messageText.text = loveQuotes.randomElement()
-
-        // Do any additional setup after loading the view.
     }
+    // Botón de salida, que lleva la app a la primera vista
     @IBAction func buttonOut(_ sender: Any) {
         performSegue(withIdentifier: "VC", sender: self)
     }
